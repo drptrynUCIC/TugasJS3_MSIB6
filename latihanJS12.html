@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JS Eksternal</title>
+    <style>
+        #hasil {
+            width: 50%;
+            background-color: aqua;
+            border: 1px solid #000000;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <table style="width: 50%; background-color: aqua; border: 1px solid; text-align: center;">
+            <tr>
+                <th colspan="2">Form Input</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nama">Nama</label>
+                </td>
+                <td>
+                    <input type="text" name="nama" id="nama" placeholder="Masukkan Nama">
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    <label for="pekerjaan">Pekerjaan</label>
+                </td>
+                <td>
+                    <input type="text" name="pekerjaan" id="pekerjaan" placeholder="Masukkan Pekerjaan">
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    <label for="hobby">Hobby</label>
+                </td>
+                <td>
+                    <input type="text" name="hobby" id="hobby" placeholder="Masukkan Hobby">
+                </td>
+            </tr>
+            <th colspan="2">
+                <button type="button" onclick="dataPerson()">Submit</button>
+            </th>
+        </table>
+    </form>
+    <div id="hasil"></div>
+    <script src="js/skrip.js"></script>
+</body>
+</html>
